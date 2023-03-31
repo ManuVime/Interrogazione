@@ -1,0 +1,107 @@
+/*reset*/
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+/*Generic*/
+
+body{
+    margin: 0;
+    width:100%;
+    height: 100%;
+    background-image: url(images/Sfondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Background{
+    width:98%;
+    height: 98%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Buttons{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    height: 40%;
+    width: 96%;
+}
+.Blackboard{
+    height: 60%;
+    width: 96%;
+}
+.Blackboardbutton{
+    width: 80%;
+    height: 60%;
+    border: 10px solid;
+    border-color: #DD8E96;
+    border-radius: 24px;
+    background-image: url(images/Lavagna.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #DD8E96;
+    position: relative;
+}
+
+h1{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 24px; 
+}
+  
+.Random {
+    border: 10px solid;
+    border-color: #DD8E96;
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    border-radius: 24px;
+    background-image: url(images/Random.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    opacity: 80%;
+}
+
+.Refresh {
+    border: 10px solid;
+    border-color: #DD8E96;
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    border-radius: 24px;
+    background-image: url(images/Refresh.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0px;
+    opacity: 80%;
+}
